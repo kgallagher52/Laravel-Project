@@ -25,7 +25,7 @@ return [
     | your application so that it is used when running Artisan tasks.
     |
     */
-
+        // 'url' => 'https://young-dusk-44039.herokuapp.com/',
     'url' => 'http://localhost',
 
     /*
