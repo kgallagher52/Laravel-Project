@@ -1,10 +1,16 @@
 @extends('layout')
 
 @section('content')
-    <h1>All Cards</h1>
-    @foreach($cards as $card)
-        <div>
-        <a href="/cards/{{ $card->id }}">{{ $card->title }}</a>
-        </div>
-    @endforeach
+<div class="row">
+     <div class="col-md-6 col-md-offset-3">
+        <h1>All Cards</h1>
+        <ul class="list-group">
+            @foreach($cards as $card)
+                <div>
+                <li class="list-group-item"><a href="/cards/{{ $card->id }}">{{ $card->title }}</a></li>
+                </div>
+            @endforeach
+        </ul>
+    </div>
+</div>
 @stop
