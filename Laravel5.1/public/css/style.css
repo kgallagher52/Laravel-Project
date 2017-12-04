@@ -1,0 +1,23 @@
+
+
+header {
+    background: limegreen;
+    color: aliceblue;
+    padding: 1px;
+    text-align: center;
+}
+
+#link {
+    background-color: azure;
+    font-weight: 600;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
